@@ -1,0 +1,36 @@
+body {
+    background-color: #36393F;
+    color: #F8F8F8;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  input {
+    background-color: #2C2F33;
+    border: none;
+    color: #F8F8F8;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #7289DA;
+    color: #F8F8F8;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #result {
+    background-color: #2C2F33;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  @media (max-width: 600px) {
+    input, button {
+      width: 100%;
+      margin-bottom: 70px;
+    }
+  }
+    
